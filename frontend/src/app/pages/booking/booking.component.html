@@ -1,0 +1,51 @@
+<div class="booking-container">
+  <h1>🎟️ Book Your Ticket Khushi</h1>
+
+  <form class="booking-form" action="/confirmation" method="POST">
+    <div class="form-group">
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" placeholder="Rewat" required />
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="example@email.com" required />
+    </div>
+
+    <div class="form-group">
+      <label for="source">Source</label>
+      <select id="source" name="source" required>
+        <option value="" disabled selected>-- Select Source --</option>
+        <option value="delhi">Delhi</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="bangalore">Bangalore</option>
+        <option value="kolkata">Kolkata</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="destination">Destination</label>
+      <select id="destination" name="destination" required>
+        <option value="" disabled selected>-- Select Destination --</option>
+        <option value="delhi">Delhi</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="bangalore">Bangalore</option>
+        <option value="kolkata">Kolkata</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="date">Travel Date</label>
+      <input type="date" id="date" name="date" required />
+    </div>
+
+    <div class="form-group">
+      <label for="passengers">Number of Passengers</label>
+      <input type="number" id="passengers" name="passengers" min="1" max="10" required />
+    </div>
+
+    <button type="submit" class="submit-button">Confirm Booking</button>
+  </form>
+
+  <a href="/" class="back-home">← Back to Home</a>
+</div>
