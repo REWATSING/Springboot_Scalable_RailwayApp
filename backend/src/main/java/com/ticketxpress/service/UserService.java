@@ -1,4 +1,4 @@
-package main.java.com.ticketxpress.service;
+package com.ticketxpress.service;
 
 import com.ticketxpress.model.User;
 import com.ticketxpress.repository.UserRepository;

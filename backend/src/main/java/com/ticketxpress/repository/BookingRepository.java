@@ -1,4 +1,4 @@
-package main.java.com.ticketxpress.repository;
+package com.ticketxpress.repository;
 
 import com.ticketxpress.model.Booking;
 import org.springframework.data.jpa.repository.JpaRepository;

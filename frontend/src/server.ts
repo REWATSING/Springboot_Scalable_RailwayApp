@@ -1,3 +1,4 @@
+// import { createProxyMiddleware } from 'http-proxy-middleware'; 
 import {
   AngularNodeAppEngine,
   createNodeRequestHandler,
@@ -13,6 +14,16 @@ const browserDistFolder = resolve(serverDistFolder, '../browser');
 
 const app = express();
 const angularApp = new AngularNodeAppEngine();
+
+
+// app.use(
+//   '/api',
+//   createProxyMiddleware({
+//     target: 'http://ticketxpress-backend:8080', // Spring Boot backend URL
+//     changeOrigin: true,
+//   }),
+// );
+
 
 /**
  * Example Express Rest API endpoints can be defined here.

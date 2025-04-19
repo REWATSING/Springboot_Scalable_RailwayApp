@@ -1,4 +1,4 @@
-package main.java.com.ticketxpress.model;
+package com.ticketxpress.model;
 
 import jakarta.persistence.*;
 import lombok.*;

@@ -103,6 +103,8 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
+            "browsers": "frontend:build",
+            "poll": 1000,
             "polyfills": [
               "zone.js",
               "zone.js/testing"
