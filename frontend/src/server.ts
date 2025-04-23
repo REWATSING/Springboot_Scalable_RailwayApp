@@ -19,7 +19,7 @@ const angularApp = new AngularNodeAppEngine();
 // app.use(
 //   '/api',
 //   createProxyMiddleware({
-//     target: 'http://ticketxpress-backend:8080', // Spring Boot backend URL
+//     target: 'http://backend:8080', // Spring Boot backend URL
 //     changeOrigin: true,
 //   }),
 // );
